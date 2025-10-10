@@ -1,14 +1,114 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - André Ribeiro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <div class="container">
+    <!-- Coluna Esquerda -->
+    <aside class="sidebar">
+      <div class="profile-photo">
+        <!-- Substitua o link abaixo pela sua foto depois -->
+        <img src="img/foto.jpg" alt="Foto de André Ribeiro">
+      </div>
+
+      <h1>André Ribeiro Rodrigues</h1>
+      <p>📍 R. Santos Dumont, nº406 – Tabuazeiro, Vitória – ES, 29043-080</p>
+      <p>📞 (27) 98859-4410</p>
+      <p>✉️ <a href="mailto:ribeiro.andredev@outlook.com">ribeiro.andredev@outlook.com</a></p>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/AndreRibeiroRodrigues" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+
+      <section class="skills">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+          <li>HTML, CSS, Java, JavaScript, Python, Dart, Flutter</li>
+          <li>Git, Office 365, Excel, Word, PowerPoint</li>
+          <li>Power BI, SQL</li>
+        </ul>
+      </section>
+
+      <section class="languages">
+        <h2>Idiomas</h2>
+        <p>Inglês: Básico / Intermediário</p>
+      </section>
+    </aside>
+
+    <!-- Coluna Direita -->
+    <main class="content">
+      <section class="summary">
+        <h2>Resumo Profissional</h2>
+        <p>Profissional com formação em andamento em Análise e Desenvolvimento de Sistemas, com experiência prática em suporte técnico, atendimento ao cliente e processos administrativos. Boa capacidade de organização, proatividade e facilidade no uso de ferramentas tecnológicas. Busco contribuir com soluções eficientes e agregar valor às equipes com as quais colaboro.</p>
+      </section>
+
+      <section class="education">
+        <h2>Formação Acadêmica</h2>
+        <p><strong>FAESA Centro Universitário</strong><br>
+        Curso: Superior de Tecnologia em Análise e Desenvolvimento de Sistemas<br>
+        Período: 4º</p>
+      </section>
+
+      <section class="experience">
+        <h2>Experiência Profissional</h2>
+
+        <div class="job">
+          <h3>SAILE – Unidade Básica de Saúde do Quadro – Vitória/ES</h3>
+          <p><em>Recepcionista</em></p>
+          <ul>
+            <li>Atendimento ao público e acolhimento de pacientes</li>
+            <li>Agendamento de consultas e exames</li>
+            <li>Organização de prontuários e cadastros</li>
+            <li>Suporte administrativo e controle de fluxo de pacientes</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>FUCAPE Business School – Vitória/ES</h3>
+          <p><em>Estagiário (Abr/2022 – Abr/2023)</em></p>
+          <ul>
+            <li>Elaboração e acompanhamento de cronogramas</li>
+            <li>Desenvolvimento de dashboards e relatórios em BI</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Siedna Consultoria e Treinamento LTDA ME – Vitória/ES</h3>
+          <p><em>Auxiliar Técnico</em></p>
+          <ul>
+            <li>Implantação de compartilhamento em nuvem</li>
+            <li>Instalação e configuração de equipamentos</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Supermercado Integral – Vitória/ES</h3>
+          <p><em>Repositor de Mercadorias (26/03/2024 - 17/01/202)</em></p>
+          <ul>
+            <li>Organização de produtos e controle de validade</li>
+            <li>Atendimento a clientes</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>Padaria Integral – Vitória/ES</h3>
+          <p><em>Atendente / Auxiliar de Produção (05/02/2025 - 14/06/2025)</em></p>
+          <ul>
+            <li>Atendimento ao cliente e preparo de produtos</li>
+            <li>Operação de caixa</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
